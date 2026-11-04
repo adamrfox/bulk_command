@@ -1,0 +1,21 @@
+{
+  "default_cluster": "home-lab",
+  "clusters": {
+    "home-lab": {
+      "host": "pve1",
+      "port": 8006,
+      "user": "root@pam",
+      "token_name": "bulkcommand",
+      "token_value": "REPLACE_WITH_YOUR_TOKEN",
+      "insecure": true,
+      "ssh_user": "root",
+      "ssh_key": "~/.ssh/id_ed25519"
+    },
+    "work": {
+      "host": "pve9",
+      "user": "admin@pve!key",
+      "token_value": "REPLACE_WITH_YOUR_TOKEN",
+      "timeout": 30
+    }
+  }
+}
